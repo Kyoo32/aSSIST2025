@@ -1,3 +1,5 @@
+# Python 라이브러리 for Data Science - NumPy
+
 NumPy는 데이터 사이언스의 핵심 라이브러리입니다. "Numerical Python"의 줄임말로, 다차원 배열과 수치 연산을 효율적으로 처리할 수 있게 해줍니다. Numpy는 Pandas의 백엔드 라이브러리로도 사용됩니다. 
 
 ## NumPy 설치 및 임포트
@@ -252,3 +254,4 @@ print(f"상승일: {up_days}일, 하락일: {down_days}일")
 ```
 
 NumPy는 데이터 사이언스의 기초가 되는 라이브러리입니다. 이후 배울 Pandas, Matplotlib 등도 모두 NumPy를 기반으로 동작합니다!
+
