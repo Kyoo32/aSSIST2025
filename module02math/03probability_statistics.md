@@ -24,3 +24,24 @@
     - **Evaluating Models (Inferential Statistics):** After training a model, we use statistical **hypothesis testing** (like A/B tests) to determine if its performance is genuinely good or just a result of random chance.
         
     - **Data Collection:** Statistics guides how we **sample** data to ensure it's a fair representation of the real world, helping to prevent bias in our models.
+
+Of course. Here is that explanation added to your Lecture 3 notes.
+
+---
+
+### Common Distributions 📊
+* **Bernoulli Distribution:** This is used for a **single trial** with only **two possible outcomes** (e.g., success/failure, yes/no, 1/0). 🪙
+    * **The key question is:** Will this *one* event succeed or fail?
+    * **Examples:**
+        * Will a *single user* click on an ad? (Yes/No)
+        * Is a *single product* from the assembly line defective? (Defective/Not Defective)
+        * Did a *single coin flip* land on heads? (Heads/Tails)
+
+* **Poisson Distribution:** This is used for **counting the number of times** an event occurs within a **fixed interval** of time or space. ⏰
+    * **The key question is:** *How many times* will this event happen in this interval?
+    * **Examples:**
+        * How many users visit a website *in one hour*?
+        * How many calls does a call center receive *per minute*?
+        * How many typos are on a *single page* of a book?
+
+> **In simple terms:** Use **Bernoulli** for a single "yes/no" question. Use **Poisson** when you're counting occurrences over a period of time or an area.
