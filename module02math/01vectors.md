@@ -10,11 +10,12 @@
     
     > **In simple terms:** A norm just answers the question, "How long is this vector?"
     > 
-    > - **Euclidean Norm** is the "as the crow flies" straight-line distance 🐦.
+    > - **Euclidean Norm(L2 Norm)** is the "as the crow flies" straight-line distance 🐦.
     >     
-    > - **Manhattan Norm** is the "taxicab" distance, moving only along a grid 🚕.
+    > - **Manhattan Norm(L1 Norm)** is the "taxicab" distance, moving only along a grid 🚕.
     >     
     > - **Infinity Norm** is the "chessboard" distance, finding the longest single move in any one direction ♟️.
     >     
     
 - **Vectors** are used directly in Large Language Models (LLMs) in the form of **embeddings**.
+
