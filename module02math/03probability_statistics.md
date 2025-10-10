@@ -25,8 +25,6 @@
         
     - **Data Collection:** Statistics guides how we **sample** data to ensure it's a fair representation of the real world, helping to prevent bias in our models.
 
-Of course. Here is that explanation added to your Lecture 3 notes.
-
 ---
 
 ### Common Distributions 📊
@@ -45,3 +43,20 @@ Of course. Here is that explanation added to your Lecture 3 notes.
         * How many typos are on a *single page* of a book?
 
 > **In simple terms:** Use **Bernoulli** for a single "yes/no" question. Use **Poisson** when you're counting occurrences over a period of time or an area.
+
+---
+
+### The Central Limit Theorem 🔔
+
+* **The Core Idea:** The Central Limit Theorem (CLT) is a fundamental concept that describes the shape of the distribution of sample means.
+
+    > **In simple terms:** Imagine you're rolling a single die. The probability of getting any number (1 through 6) is the same (a flat, uniform distribution).
+    >
+    > Now, imagine you roll five dice and calculate their average. You do this again and again, thousands of times, and plot a histogram of all those averages.
+    >
+    > The CLT tells us that this new histogram of **averages** will form a beautiful **bell curve (a normal distribution)**, even though the original distribution of a single die roll was completely flat. 
+
+* **Why It's So Important:**
+    * It allows us to make inferences about a whole population using just a sample, even if we don't know the population's true distribution.
+    * It is the foundation for many statistical methods, such as **hypothesis testing** and constructing **confidence intervals**. For example, it's why we can be confident that the average result from a political poll of 1,000 people is a good estimate of the entire country's opinion.
+    * In machine learning, it helps us understand the behavior of model parameters and evaluate the significance of our results.
