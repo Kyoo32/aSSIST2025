@@ -27,6 +27,25 @@
 
 ---
 
+### Covariance & Correlation 
+
+* **Covariance**: This measures the **direction** of a linear relationship between two variables.
+    * **Positive Covariance**: Indicates that as one variable increases, the other tends to increase.
+    * **Negative Covariance**: Indicates that as one variable increases, the other tends to decrease.
+    * **Limitation**: The value of covariance is in units (e.g., "dollar-kilograms"), which makes it difficult to judge the *strength* of the relationship. A big number doesn't necessarily mean a strong relationship.
+
+* **Correlation**: This measures both the **direction and the strength** of a linear relationship.
+    * It's a standardized value, always between **-1 and +1**.
+    * **+1** is a perfect positive relationship.
+    * **-1** is a perfect negative relationship.
+    * **0** means there is no linear relationship.
+    * **Why it's better**: Because it's a standardized number without units, it's easy to interpret and compare across different datasets. A correlation of +0.8 always means a strong positive relationship.
+
+> **In simple terms**: Imagine two cars on a highway. 🚗🚗
+> * **Covariance** tells you if they are moving in the **same direction**.
+> * **Correlation** tells you if they are moving in the same direction *and* **how closely they are driving together in formation**. A correlation of +1 means they are moving in perfect lockstep.
+---
+
 ### Bayes' Theorem 
 
 * **What it is:** Bayes' Theorem is a mathematical formula for updating our beliefs in light of new evidence. It's a formal way to use what we already know to make better predictions.
@@ -107,5 +126,6 @@ $$P(D \mid P) = \frac{P(P\mid D) P(D)}{P(P\mid D) P(D) + P(P\mid H) P(H)} = \fra
     * It allows us to make inferences about a whole population using just a sample, even if we don't know the population's true distribution.
     * It is the foundation for many statistical methods, such as **hypothesis testing** and constructing **confidence intervals**. For example, it's why we can be confident that the average result from a political poll of 1,000 people is a good estimate of the entire country's opinion.
     * In machine learning, it helps us understand the behavior of model parameters and evaluate the significance of our results.
+
 
 
