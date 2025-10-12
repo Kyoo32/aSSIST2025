@@ -4,6 +4,45 @@
     
     > **In simple terms:** Solving for the "weights" just means finding the best-fit line for your data. You measure how "bad" your line is using an error score (like **MSE**), which creates a big error "bowl" 🥣. The goal is to find the slope and intercept at the very bottom of that bowl, where the error is smallest.
     
+Of course. Here is a note on Ordinary Least Squares (OLS) in the Lecture 2 format, including a simple Python example.
+
+
+
+### Ordinary Least Squares (OLS) 
+
+  * **What it is:** Ordinary Least Squares (OLS) is the most common method used to perform linear regression. Its goal is to find the single best-fitting straight line through a set of data points.
+
+  * **How it Works:** OLS determines the "best" line by finding the one that **minimizes the sum of the squared residuals**. A "residual" is simply the vertical distance (the error) between an actual data point and the line.
+
+    > **In simple terms:** Imagine your data points are tent pegs in the ground. OLS finds the exact position for a straight tent pole that makes the total squared length of all the vertical strings connecting the pegs to the pole as small as possible.
+
+  * **Why Square the Errors?** We square the errors to make them all positive (so that errors above and below the line don't cancel each other out) and to heavily penalize larger errors.
+
+
+This code finds the slope and intercept for the line that best fits the data according to OLS.
+
+```python
+import numpy as np
+from sklearn.linear_model import LinearRegression
+
+# 1. Create some sample data
+# We need X to be a 2D array for scikit-learn
+X = np.array([[1], [2], [3], [4], [5]]) # Feature (e.g., hours studied)
+y = np.array([2, 4, 5, 4, 6])          # Target (e.g., test score)
+
+# 2. Create and fit the OLS model
+model = LinearRegression()
+model.fit(X, y)
+
+# 3. Get the results (the parameters of the best-fit line)
+slope = model.coef_[0]
+intercept = model.intercept_
+
+print(f"The best-fit line is: y = {slope:.2f}x + {intercept:.2f}")
+# This is the line that minimizes the sum of squared errors for this data.
+```
+
+### Matrix Decomposition 
 - **Matrix Decomposition** is breaking a matrix down into two or three simpler matrices.
     
     - **LU Decomposition:** Used to solve linear systems.
@@ -24,3 +63,4 @@
     >     
     > 
     > **The Connection:** PCA is the statistical goal (simplify my data!), and SVD is the powerful mathematical engine that actually does the work to achieve it.
+
