@@ -94,6 +94,9 @@ $$P(D \mid P) = \frac{P(P\mid D) P(D)}{P(P\mid D) P(D) + P(P\mid H) P(H)} = \fra
 ---
 
 ### Common Distributions
+
+<img src="https://github.com/user-attachments/assets/82ae975c-69bd-4a42-953b-de6bb1b9a97d" width="50%">
+
 * **Bernoulli Distribution:** This is used for a **single trial** with only **two possible outcomes** (e.g., success/failure, yes/no, 1/0). 🪙
     * **The key question is:** Will this *one* event succeed or fail?
     * **Examples:**
@@ -126,6 +129,7 @@ $$P(D \mid P) = \frac{P(P\mid D) P(D)}{P(P\mid D) P(D) + P(P\mid H) P(H)} = \fra
     * It allows us to make inferences about a whole population using just a sample, even if we don't know the population's true distribution.
     * It is the foundation for many statistical methods, such as **hypothesis testing** and constructing **confidence intervals**. For example, it's why we can be confident that the average result from a political poll of 1,000 people is a good estimate of the entire country's opinion.
     * In machine learning, it helps us understand the behavior of model parameters and evaluate the significance of our results.
+
 
 
 
