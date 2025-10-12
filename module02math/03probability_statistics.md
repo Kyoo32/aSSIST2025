@@ -70,6 +70,7 @@ get_p_d_given_pos(p_d, p_h, p_pos_given_d, p_pos_given_h) # 양성 결과가 나
 # 0.16101694915254236
 
 ```
+$$P(D \mid P) = \frac{P(P\mid D) P(D)}{P(P\mid D) P(D) + P(P\mid H) P(H)} = \frac{(0.95)(0.001)}{(0.95)(0.001)+(0.05)(0.99)} = 0.161$$
 
 ---
 
@@ -106,4 +107,5 @@ get_p_d_given_pos(p_d, p_h, p_pos_given_d, p_pos_given_h) # 양성 결과가 나
     * It allows us to make inferences about a whole population using just a sample, even if we don't know the population's true distribution.
     * It is the foundation for many statistical methods, such as **hypothesis testing** and constructing **confidence intervals**. For example, it's why we can be confident that the average result from a political poll of 1,000 people is a good estimate of the entire country's opinion.
     * In machine learning, it helps us understand the behavior of model parameters and evaluate the significance of our results.
+
 
