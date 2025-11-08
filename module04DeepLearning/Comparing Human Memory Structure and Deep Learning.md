@@ -204,6 +204,7 @@ Transformer의 Attention을 뇌과학적으로 보면,
 
 ---
 
-### 더 읽어볼 거리 
+
+## 더 읽어볼 거리 
 
 - AI가 '생각한다'는 논거: https://news.hada.io/topic?id=24142
