@@ -4,19 +4,17 @@
 이 저장소는 **aSSIST 서울과학종합대학원대학교(aSSIST University) AI·빅데이터 석사 과정** 학습 기록입니다.  
 2025-2학기 전공기초 기준으로, AI와 데이터 사이언스의 핵심 영역을 모듈형으로 학습하며 이론과 실습을 함께 진행합니다.
 
-- 과정: AI·빅데이터 석사
-- 학교: aSSIST 서울과학종합대학원대학교 (aSSIST University)
-- 학기 운영(전공기초 기준): 금요일/토요일 집중 수업
-- 모듈 구성 예시:
-- Python
-- Mathematics with Python
-- Machine Learning
-- Deep Learning
-- AI Vision
-- 개인화추천
-- AI 시대의 프로그래밍
-- AI연구방법론
-- Responsible Leadership/Entrepreneurial Mindset/Innovative Vision 관련 통합 모듈
+- AI·빅데이터 석사 / aSSIST 서울과학종합대학원대학교 (aSSIST University)
+- 모듈
+     - Python
+     - Mathematics with Python
+     - Machine Learning
+     - Deep Learning
+     - AI Vision
+     - 개인화추천
+     - AI 시대의 프로그래밍
+     - AI연구방법론
+     - Responsible Leadership/Entrepreneurial Mindset/Innovative Vision 관련 통합 모듈
 
 ## Repository Goal
 이 Git의 목표는 다음 3가지를 한 곳에 체계적으로 남기는 것입니다.
